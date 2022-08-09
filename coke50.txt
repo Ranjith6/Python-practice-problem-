@@ -1,4 +1,4 @@
-
+#Sample Problem From CS50
 ########
 print('amount due:50')
 print("INSERT Coin Denomination of 25,10,5 :")
