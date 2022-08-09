@@ -1,0 +1,14 @@
+ls=[]
+ds=[]
+try:
+ while True:
+  ip=int(input('entr '))
+  ls.append(ip)
+  s=len(ls)
+
+except:
+ s = s - 1
+ while s!=-1:
+   ds.append(ls[s])
+   s-=1
+ print(ds)

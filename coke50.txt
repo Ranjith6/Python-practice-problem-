@@ -1,0 +1,14 @@
+
+########
+print('amount due:50')
+print("INSERT Coin Denomination of 25,10,5 :")
+a=int(input())
+while a!=50:
+    a=50-a
+    if a<50:
+     a=50-a
+     d=50-a
+     print('amount due:',d)
+     c=int(input())  
+     a=a+c
+print('zero due')

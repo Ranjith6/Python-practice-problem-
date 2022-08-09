@@ -1,0 +1,6 @@
+l=[11,11,33,55,55,22,]
+ls=[]
+for i in l:
+   if l.count(i) > 1 and i not in ls:
+       ls.append(i)
+print(ls)

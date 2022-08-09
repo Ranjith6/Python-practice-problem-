@@ -1,0 +1,17 @@
+ds=[]
+try:
+  while True:
+   ip=int (input ("enter the elemnt: "))
+   ds.append(ip)
+except:
+    s=int (input ("\neter size:"))
+    l=len(ds)
+    str=0
+    d=s
+    while str<l:
+
+        print(ds[str:d],end=" ")
+        str=str+s
+        d=str+s
+        #print(str,s)
+        

@@ -1,0 +1,13 @@
+class_list = {}
+while True:
+ try:
+
+  key = input("Enter the item")
+
+  if key in class_list:
+       class_list[key] =class_list[key]+1
+  else:
+   class_list[key] =1
+ except:
+    print (class_list)
+    break

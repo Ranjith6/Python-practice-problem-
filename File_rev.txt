@@ -1,0 +1,6 @@
+file = open("sample.txt", "w")
+with open("requirements.txt", "r") as myfile:
+    data = myfile.readlines()
+revfil = data[::-1]
+file.writelines(revfil)
+file.close()

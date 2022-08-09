@@ -1,0 +1,8 @@
+print("Hello world")
+
+d={'apple':110,'banana':120,'pappaya':130,'grapes':90,'avacado':123,'plums':34,'ramboottan':190,'kiwi':500}
+print("ipunt")
+ip=input()
+for x in d:
+   if x==ip:
+        print(ip,':',d[x])

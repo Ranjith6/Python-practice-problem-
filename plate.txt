@@ -1,0 +1,14 @@
+
+print("entr ip;")
+ip=input()
+if len(ip)>=2 and len(ip)<=6:
+ if ip.isalpha()==1:
+  print('valid:',ip)
+ elif ip.isalnum()==1:
+  ip[0].isalpha==1 and  ip[-1].isdigit()==1
+  print("df",ip[0],ip[-1])
+  print("Valid plate")
+ else:
+     print("invalid")
+else:
+    print('invalid')

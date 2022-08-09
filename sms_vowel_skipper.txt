@@ -1,0 +1,4 @@
+ip=input("enrt ip:")
+for i in ip:
+     if not i in ['a','e','i','o','u']:
+      print(i,end='')

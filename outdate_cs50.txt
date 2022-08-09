@@ -1,0 +1,28 @@
+l=[
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+]
+
+print('entr date: ')
+a=input()
+m,d,y=a.split('/')
+a=int(d)
+c=int(y)
+
+for i in l:
+    if i==m:
+        b=l.index(i)+1
+        print(f"{a:02}/{b}/{c:02}")
+
+print(d+'/'+m+'/'+y)
+
